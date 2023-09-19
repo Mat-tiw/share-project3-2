@@ -1,0 +1,17 @@
+.card-from-img-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 33.33%;
+  cursor: pointer;
+  transition: transform 200ms ease-in;
+  .card-body-img-list{
+    img{
+        object-fit: fill;
+    }
+  }
+  &:hover {
+    transform: scale(1.02);
+  }
+}

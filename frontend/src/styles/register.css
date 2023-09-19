@@ -1,0 +1,11 @@
+.Newtosky-toremove {
+  opacity: 0;
+}
+
+.cover {
+  position: relative;
+}
+.cover .regi-tomove {
+  position: relative;
+  bottom: -1em;
+}/*# sourceMappingURL=register.css.map */

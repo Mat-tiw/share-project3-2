@@ -1,0 +1,102 @@
+.super-body{
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Josefin sans';
+    font-weight: lighter;
+}
+.card{
+    text-align: center;
+    flex-direction: column;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(151.86deg, rgba(34, 91, 158, 0.1) 0%, rgba(168, 207, 222, 0.2) 40.42%, rgba(215, 218, 225, 0.2) 67.7%, rgba(72, 96, 140, 0.2) 100%), linear-gradient(152.39deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0.03) 81.51%);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    left: 550px;
+    margin-top: 10em; 
+    padding-top: 7em;
+    padding-left: 5.5em;
+    padding-right: 5.5em;
+    padding-bottom: 5.5em;
+    margin-left: 13em;
+    margin-right: 20em;
+
+}
+.app-logo{
+    position: relative;
+    bottom: 4em;
+}
+.login{
+    position: relative;
+    bottom: 50px;
+    font-weight: lighter;
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+}
+.checkbox{
+    min-height: 5vh;
+    position: relative;
+    bottom: 30px;
+    right: 60px;
+    font-weight: lighter;
+    font-size: 15px;
+    color: rgb(249, 248, 248);
+}   
+.Newtosky{
+    position: relative;
+    top: 10px;
+    color: rgb(249, 248, 248);
+}
+.containerbutton{
+    min-height: 5vh;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: 50px;
+}
+button{
+    font-size: 20px;
+    font-family: 'Josefin sans';
+    font-weight: lighter;
+    padding: 8px 30px;
+    background: none;
+    border: 1px solid #FFFFFF;
+    color: #fdfdfd;
+}
+.input{
+    position: relative;
+    bottom: 50px;
+
+}
+.input input{
+    width: 100%;
+    background: transparent;
+    color: rgb(242, 240, 240);
+    border: none;
+    outline: none;
+    box-shadow: none;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    margin-top: 20px;
+    margin-left: -60px;
+    
+}
+.input i{
+    position: absolute;
+    right: -50px;
+    bottom: 0;
+    width: 310px;
+    height: 1px;
+    background: #FFFFFF;
+    top: 45px;
+    border: none;
+}
+::placeholder{
+    color: rgb(245, 241, 241);
+    font-family: 'Josefin sans';
+    font-weight: lighter;
+}
+.toAuth:hover{
+    cursor: pointer;
+}
+.toCheck:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,178 @@
+.wrapper-main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.breadcrumb-wrapper {
+  margin-top: 1em;
+}
+.breadcrumb-wrapper .test-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.breadcrumb-wrapper .test-flex .users {
+  text-decoration: none;
+}
+.breadcrumb-wrapper .test-flex p {
+  font-size: 30px;
+  font-weight: 100;
+  color: rgb(111, 111, 111);
+}
+
+.hero-main {
+  position: relative;
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 5em;
+}
+.hero-main .header-text-main {
+  font-size: 50px;
+  font-weight: 100;
+  color: rgb(0, 0, 0);
+}
+.hero-main .text-sub-main {
+  font-size: 30px;
+  font-weight: 100;
+  color: rgb(111, 111, 111);
+}
+.hero-main .text-wrapper-hero-main {
+  display: flex;
+  flex-direction: column;
+  max-width: 45vw;
+}
+.hero-main .iframe-wrapper-hero-main {
+  margin-top: 2.1em;
+  padding-top: 2.2em;
+  max-width: 45vw;
+}
+.hero-main .iframe-wrapper-hero-main iframe {
+  width: 40vw;
+  height: 50vh;
+}
+
+.sub-hero-section-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sub-hero-section-main p {
+  font-size: 43px;
+  font-weight: 100;
+  color: rgb(58, 58, 58);
+}
+
+.listimgcontainer {
+  margin-left: 20em;
+  margin-right: 20em;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-basis: 33.33%;
+  gap: 3em;
+}
+
+.credit-header {
+  padding-top: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.credit-header p {
+  font-size: 43px;
+  font-weight: 100;
+  color: rgb(58, 58, 58);
+}
+
+.credit-wrapper {
+  position: relative;
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 5em;
+}
+.credit-wrapper p {
+  font-size: 30px;
+  font-weight: 100;
+  color: rgb(111, 111, 111);
+}
+.credit-wrapper .iframe-credit-wrapper {
+  padding-top: 2.2em;
+  max-width: 45vw;
+}
+.credit-wrapper .iframe-credit-wrapper iframe {
+  width: 40vw;
+  height: 50vh;
+}
+.credit-wrapper .sub-text-wrapper-credit {
+  display: flex;
+  flex-direction: column;
+  max-width: 45vw;
+  text-align: right;
+}
+
+.upload-header {
+  padding-top: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.upload-header p {
+  font-size: 43px;
+  font-weight: 100;
+  color: rgb(58, 58, 58);
+}
+
+.uploadCanvas-wrapper {
+  height: 30vh;
+  margin: 10em 30em 10em 30em;
+}
+
+.footer-wrapper {
+  margin-top: 50vh;
+}
+.footer-wrapper p {
+  font-weight: 100;
+  color: rgb(131, 131, 131);
+  font-size: 30px;
+}
+.footer-wrapper .footer-text-container-main {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tosubmit-main {
+  background-color: black;
+}
+
+.wrapper-render {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-basis: 33.33%;
+}
+.wrapper-render img {
+  height: 600px;
+  width: 300px;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.btn-admin {
+  background-color: black;
+}
+
+label {
+  font-family: "Josefin sans";
+}/*# sourceMappingURL=main.css.map */

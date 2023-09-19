@@ -1,0 +1,16 @@
+.card-from-img-list {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-basis: 33.33%;
+  cursor: pointer;
+  transition: transform 200ms ease-in;
+}
+.card-from-img-list .card-body-img-list img {
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+.card-from-img-list:hover {
+  transform: scale(1.02);
+}/*# sourceMappingURL=fetchimg.css.map */

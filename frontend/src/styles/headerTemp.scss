@@ -1,0 +1,81 @@
+.headerTemp {
+  position: absolute;
+  width: 447px;
+  height: 91px;
+  left: 0px;
+  top: 0px;
+
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(89, 89, 89, 0.130208) 27.6%,
+      rgba(98, 98, 98, 0.122917) 67.71%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(217, 217, 217, 0.306) 0%,
+      rgba(217, 217, 217, 0) 100%
+    );
+  backdrop-filter: blur(15px);
+  .hard {
+    position: absolute;
+    width: 123px;
+    height: 28px;
+    left: 1em;
+    top: -0.3em;
+
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 24px;
+
+    color: #000000;
+  }
+  .fdata {
+    position: absolute;
+    width: 172px;
+    height: 28px;
+    left: 5.3em;
+    top: -0.3em;
+
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 24px;
+
+    color: #000000;
+  }
+  .fview {
+    position: absolute;
+    width: 20px;
+    height: 18px;
+    left: 373px;
+    top: 2em;
+
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+
+    color: #6a6a6a;
+  }
+  .flike {
+    position: absolute;
+    width: 20px;
+    height: 18px;
+    left: 291px;
+    top: 2em;
+
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+
+    color: #6a6a6a;
+  }
+}
